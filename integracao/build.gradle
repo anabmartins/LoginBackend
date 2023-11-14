@@ -27,6 +27,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'org.postgresql:postgresql'
 	annotationProcessor 'org.projectlombok:lombok'
+        implementation 'javax.persistence:javax.persistence-api:2.2'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
