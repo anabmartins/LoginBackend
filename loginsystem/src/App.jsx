@@ -21,6 +21,7 @@ function App() {
       alert(response);
     } catch (error) {
       alert('Erro ao se logar');
+      console.log(error);
       console.error('Erro ao se logar:', error);
     }
   };
