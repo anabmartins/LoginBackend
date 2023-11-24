@@ -27,10 +27,10 @@ function App() {
   };
   return (
     <div>
-      <h1>Login SyStem</h1>
       <form>
+      <h1>Login SyStem</h1>
         <label>
-          Usuário:
+         <span>Usuário</span>
           <input
             type="text"
             value={username}
@@ -39,7 +39,7 @@ function App() {
         </label>
         <br />
         <label>
-          Senha:
+          <span>Senha</span> 
           <input
             type="password"
             value={password}
